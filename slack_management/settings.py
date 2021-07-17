@@ -67,7 +67,7 @@ TEMPLATES = [
         },
     },
 ]
-
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'#django版本问题填加
 WSGI_APPLICATION = 'slack_management.wsgi.application'
 
 # Database
